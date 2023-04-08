@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.img-full {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main #header {
+    width: 100%;
+    height: 10em;
+    /* margin: 0 auto; */
+    /* background: #fff; */
+}
+
+#main #section1 {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+}
+
+#main #section2 {
+    width: 100%;
+    height: 100vh;
+    /* margin: 0 auto; */
+    background: url(../img/section2/backgroundss2.png) no-repeat top center;
+    background-size: 100%;
+    padding: 2%;
+}
+
+#main #section2 h4,
+#main #section2 h3 {
+    font-size: 2em;
+    margin: 3% auto;
+    width: 30%;
+    text-align: center;
+}
+
+#main #section2 h4 {
+    font-size: 1.6em;
+}
+
+#main #section2 .sc2-row {
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#header a {
+    margin: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.mario {
+    top: 130px;
+    text-transform: rotate(180deg);
+    z-index: 100;
+    position: absolute;
+}
+
+.sc2-row .sc2-box {
+    width: 32%;
+    border: 1px solid #ccc;
+    height: 40em;
+}
+
+.sc2-row .sc2-box .img {
+    width: 100%;
+    height: 80%;
+}
+
+#main #section2 .sc2-row .name {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main #section3 {
+    width: 100%;
+    height: 100vh;
+    /* margin: 0 auto; */
+    background: #ccc;
+    background: linear-gradient(180deg, #19376D 0%, rgba(255, 6, 4, 0.33) 100%);
+    padding: 2%;
+}
+
+#main #section3 .sc3-row {
+    width: 80%;
+    margin: 10% auto 5%;
+}
+
+#main #section3 h3 {
+    width: 15%;
+    font-size: 1.9em;
+    margin: 1% auto;
+    text-align: center;
+}
+
+#main #section3 .sc3-row .left,
+#main #section3 .sc3-row .right {
+    width: 40%;
+    height: 30%;
+}
+
+#main #section3 .sc3-row .left .img {
+    width: 100%;
+    height: 90%;
+}
+
+#main #section3 .sc3-row .center {
+    width: 1%;
+    height: 32em;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#main #section3 .sc3-btn {
+    width: 12%;
+    margin: 0 auto;
+    padding: 1em 2.3em;
+    border: 1px solid #ccc;
+    font-size: 1.6em;
+    background: #15EBDE;
+    border-radius: 0.5em;
+    color: #000;
+    cursor: pointer;
+}
+
+#main #section3 .sc3-btn:hover {
+    color: #15EBDE;
+    background: #fff;
+}
+
+#main #section3 .sc3-btn:active {
+    color: #fff;
+    background: #15EBDE;
+}
+
+#main #section4 {
+    width: 100%;
+    height: 100vh;
+    /* margin: 0 auto; */
+    background: #ccc;
+}
+
+
+
+#main #section5 {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    padding: 5%;
+}
+
+#main #section5 .sc5-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#section5 .sc5-row .left,
+#section5 .sc5-row .right {
+    width: 49%;
+}
+
+#section5 .sc5-row .left h3 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+#section5 .sc5-row .left label {
+    display: block;
+    font-size: 1.4em;
+    margin: 1% 0;
+}
+
+.sc5-row .left label input {
+    margin: 2% 0;
+    width: 80%;
+    height: 3em;
+}
+
+.sc5-row .left button {
+    font-size: 1.4em;
+    padding: 0.7em 1.5em;
+    background: red;
+    color: #fff;
+    margin: 0 12em;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    outline: none;
+}
+
+#section5 .sc5-row .right {
+    /* width:50%; */
+    /* height: 100%; */
+}
+
+
+/* #section5 .sc5-row .right .img {
+    width:100%;
+    height: 100%;
+} */
+
+
+.sc5-row .left button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: red;
+}
+
+.sc5-row .left button:active {
+    color: #fff;
+    background: red;
+}
+
+
+
+#main #footer {
+    width: 100%;
+    height: 10em;
+    /* margin: 0 auto; */
+    background: red;
+}
